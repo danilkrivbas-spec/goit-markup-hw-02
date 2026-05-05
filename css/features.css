@@ -1,6 +1,9 @@
 .logo-feat {
   color: #2e2f42;
 }
+.ul-features {
+  list-style: none;
+}
 .h-features {
   font-weight: 500;
   font-size: 20px;
