@@ -15,9 +15,15 @@
 
     <title>WebStudio</title>
   </head>
-  <body class="body">
+  <body
+    style="
+      font-family: Roboto, sans-serif;
+      color: #2e2e2e;
+      background-color: #ffffff;
+    "
+  >
     <!-- #region header-->
-    <header>
+    <header id="header">
       <a href="./index.html" class="logo"
         ><span class="web">Web</span>Studio
       </a>
@@ -47,10 +53,7 @@
     <main>
       <!-- #region banner-->
       <section id="hero">
-        <h1 class="banner-logo">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
+        <h1 class="banner-logo">Effective Solutions for Your Business</h1>
         <button type="button" class="banner-button">
           <span class="button-name">Order Service</span>
         </button>
@@ -68,21 +71,21 @@
             </p>
           </li>
           <li>
-            <h3 class="name-section">Punctuality</h3>
+            <h3 class="h-features">Punctuality</h3>
             <p class="p-features">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="name-section">Diligence</h3>
+            <h3 class="h-features">Diligence</h3>
             <p class="p-features">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="name-section">Technologies</h3>
+            <h3 class="h-features">Technologies</h3>
             <p class="p-features">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -92,9 +95,9 @@
       </section>
       <!-- #endregion features-->
       <!-- #region team-->
-      <section id="team">
+      <section id="team" class="fon-team">
         <h2 class="logo-team">Our Team</h2>
-        <ul>
+        <ul class="ul-team">
           <li class="box-team">
             <img
               src="./images/team-1.jpg"
@@ -141,7 +144,7 @@
       <!-- #region portfolio-->
       <section id="portfolio">
         <h2 class="h-portfolio">Our Portfolio</h2>
-        <ul>
+        <ul class="ul-portfolio">
           <li>
             <img
               src="./images/portfolio-1.jpg"
