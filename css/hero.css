@@ -12,6 +12,7 @@
   color: #ffffff;
 }
 .banner-button {
+  cursor: pointer;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -25,7 +26,4 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-.main-style {
-  font-family: "Roboto", sans-serif;
 }
