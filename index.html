@@ -15,62 +15,75 @@
 
     <title>WebStudio</title>
   </head>
-  <body>
-    <header id="header">
-      <a href="./index.html"> <span class="accent">Web</span>Studio </a>
-      <nav>
+  <body style="font-family: Roboto, sans-serif">
+    <!-- #region header-->
+    <header>
+      <a href="./index.html" class="logo"
+        ><span class="web">Web</span>Studio
+      </a>
+      <nav class="link-nav">
         <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#features" class="menu">Features</a></li>
+          <li><a href="#team" class="menu">Team</a></li>
+          <li><a href="#portfolio" class="menu">Portfolio</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="link-address">
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link-adrs"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="link-adrs"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
-    <main>
+    <!-- #endregion header-->
+    <main class="main-style">
       <!-- #region banner-->
       <section id="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="banner-logo">
+          Effective Solutions <br />
+          for Your Business
+        </h1>
+        <button type="button" class="banner-button">
+          <span class="button-name">Order Service</span>
+        </button>
       </section>
       <!-- #endregion banner-->
       <!-- #region features-->
       <section id="features">
-        <h2>Our features</h2>
+        <h2 class="logo-feat">Our features</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="h-features">Strategy</h3>
+            <p class="p-features">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="name-section">Punctuality</h3>
+            <p class="p-features">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="name-section">Diligence</h3>
+            <p class="p-features">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="name-section">Technologies</h3>
+            <p class="p-features">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -80,54 +93,54 @@
       <!-- #endregion features-->
       <!-- #region team-->
       <section id="team">
-        <h2>Our Team</h2>
+        <h2 class="logo-team">Our Team</h2>
         <ul>
-          <li>
+          <li class="box-team">
             <img
               src="./images/team-1.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="name-team">Mark Guerrero</h3>
+            <p class="p-team">Product Designer</p>
           </li>
-          <li>
+          <li class="box-team">
             <img
               src="./images/team-2.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-team">Tom Ford</h3>
+            <p class="p-team">Frontend Developer</p>
           </li>
-          <li>
+          <li class="box-team">
             <img
               src="./images/team-3.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="name-team">Camila Garcia</h3>
+            <p class="p-team">Marketing</p>
           </li>
-          <li>
+          <li class="box-team">
             <img
               src="./images/team-4.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="name-team">Daniel Wilson</h3>
+            <p class="p-team">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- #endregion team-->
       <!-- #region portfolio-->
       <section id="portfolio">
-        <h2>Our Portfolio</h2>
+        <h2 class="h-portfolio">Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -136,8 +149,8 @@
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="name-portfolio">Banking App</h3>
+            <p class="p-portfolio">App</p>
           </li>
           <li>
             <img
@@ -146,8 +159,8 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="name-portfolio">Cashless Payment</h3>
+            <p class="p-portfolio">Marketing</p>
           </li>
           <li>
             <img
@@ -156,8 +169,8 @@
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="name-portfolio">Meditation App</h3>
+            <p class="p-portfolio">App</p>
           </li>
           <li>
             <img
@@ -166,8 +179,8 @@
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="name-portfolio">Taxi Service</h3>
+            <p class="p-portfolio">Marketing</p>
           </li>
           <li>
             <img
@@ -176,8 +189,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="name-portfolio">Screen Illustrations</h3>
+            <p class="p-portfolio">Design</p>
           </li>
           <li>
             <img
@@ -186,8 +199,8 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="name-portfolio">Online Courses</h3>
+            <p class="p-portfolio">Marketing</p>
           </li>
         </ul>
       </section>
@@ -195,8 +208,10 @@
     </main>
     <!-- #region footer-->
     <footer id="footer">
-      <a href="./index.html"><span class="accent">Web</span>Studio</a>
-      <p>
+      <a href="./index.html" class="logo"
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
+      <p class="p-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
