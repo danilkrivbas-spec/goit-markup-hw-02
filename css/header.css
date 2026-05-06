@@ -14,21 +14,19 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2c2b3a;
+  color: #2e2f42;
 }
 .link-nav .menu {
-  display: flex;
   font-weight: 500;
-  line-height: normal;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   gap: 40px;
-  color: #201f30;
+  color: #2e2f42;
 }
 .link-address .link-adrs {
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #221e1e;

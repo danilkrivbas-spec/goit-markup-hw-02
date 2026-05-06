@@ -12,11 +12,12 @@
   color: #ffffff;
 }
 .banner-button {
-  background-color: #404bbf;
-  font-weight: 400;
-  font-size: large;
-  line-height: normal;
-  letter-spacing: normal;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
 }
 .banner-button:hover {
@@ -25,7 +26,7 @@
   color: #ffffff;
 }
 .banner-button:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   color: #ffffff;
 }
 /* .button-name {
@@ -33,5 +34,5 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #404bbf;
 } */
