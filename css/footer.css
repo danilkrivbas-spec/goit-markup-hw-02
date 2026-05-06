@@ -1,6 +1,9 @@
 .back-footer {
   background-color: #2e2f42;
 }
+.logo {
+  font-family: "Roboto", sans-serif;
+}
 .studio {
   color: #f4f4fd;
 }

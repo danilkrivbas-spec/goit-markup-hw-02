@@ -16,12 +16,16 @@
   text-transform: uppercase;
   color: #2e2f42;
 }
+
 .link-nav .menu {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  gap: 40px;
   color: #2e2f42;
+}
+.menu:hover,
+.menu:focus {
+  color: #404bbf;
 }
 .link-address .link-adrs {
   font-weight: 400;
@@ -29,9 +33,12 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #221e1e;
+  color: #434455;
+}
+.link-adrs:hover,
+.link-address:focus {
+  color: #404bbf;
 }
 a {
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }

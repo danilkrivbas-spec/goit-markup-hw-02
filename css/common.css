@@ -1,6 +1,9 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
-  color: #2e2e2e;
+  color: #434455;
   background-color: #ffffff;
+  list-style: none;
+}
+ul {
   list-style: none;
 }
