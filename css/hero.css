@@ -11,14 +11,21 @@
   text-align: center;
   color: #ffffff;
 }
-
+.banner-button {
+  background-color: #404bbf;
+  font-weight: 400;
+  font-size: large;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
 .banner-button:hover {
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   color: #ffffff;
 }
 .banner-button:focus {
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   color: #ffffff;
 }
 /* .button-name {
